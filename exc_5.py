@@ -1,7 +1,5 @@
-print('Enter 1st number')
-a=input()
-print ('Enter 2nd number')
-b=input()
+a=input('Enter 1st number')
+b=input('Enter 2nd number')
 if a>b:
     print(str(a)+' is bigger than '+str(b))
 elif b>a:
