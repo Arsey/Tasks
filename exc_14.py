@@ -21,9 +21,9 @@ else:
             if w > 8:
                 print('DAMN! LOWER THAN 9, BASTARD!!')
                 exit()
-            elif a+1==q and b+2==w:
+            elif a+1==q and b+2==w or a==q-1 and b==w-2:
                 print('Yes')
-            elif a+2==2 and b+1==w:
+            elif a+2==q and b+1==w or a==q-2 and b==w-1:
                 print('Yes')
             else:
                 print('No')
